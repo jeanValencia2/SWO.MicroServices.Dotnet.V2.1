@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\SWO.Microservices.Dotnet.Shared.Databases.SqlServer\SWO.Microservices.Dotnet.Shared.Databases.SqlServer.csproj" />
+    <ProjectReference Include="..\..\SWO.Microservices.Dotnet.Shared.Setup\SWO.Microservices.Dotnet.Shared.Setup.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Application\SWO.Microservices.Dotnet.Shared.Application.csproj" />
+  </ItemGroup>
+
+</Project>

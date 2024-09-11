@@ -1,0 +1,38 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.UI" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.Client" Version="8.0.1" />
+    <PackageReference Include="AspNetCore.HealthChecks.UI.InMemory.Storage" Version="8.0.1" />
+    <PackageReference Include="MediatR" Version="12.2.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.6" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="8.0.0" />
+    <PackageReference Include="NSwag.AspNetCore" Version="14.0.7" />
+    <PackageReference Include="OpenTelemetry.Exporter.Console" Version="1.8.1" />
+    <PackageReference Include="OpenTelemetry.Exporter.OpenTelemetryProtocol" Version="1.8.1" />
+    <PackageReference Include="OpenTelemetry.Extensions.Hosting" Version="1.8.1" />
+    <PackageReference Include="OpenTelemetry.Instrumentation.AspNetCore" Version="1.8.1" />
+    <PackageReference Include="Scrutor" Version="4.2.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Comunication.RabbitMQ\SWO.Microservices.Dotnet.Shared.Comunication.RabbitMQ.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Databases.MongoDB\SWO.Microservices.Dotnet.Shared.Databases.MongoDB.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Databases.MySql\SWO.Microservices.Dotnet.Shared.Databases.MySql.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Databases.SqlServer\SWO.Microservices.Dotnet.Shared.Databases.SqlServer.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Discovery.Consul\SWO.Microservices.Dotnet.Shared.Discovery.Consul.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Domain\SWO.Microservices.Dotnet.Shared.Domain.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.EventSourcing\SWO.Microservices.Dotnet.Shared.EventSourcing.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Loggers.Graylog\SWO.Microservices.Dotnet.Shared.Loggins.Graylog.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Secrets.HashicorpVault\SWO.Microservices.Dotnet.Shared.Secrets.HashicorpVault.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Serialization\SWO.Microservices.Dotnet.Shared.Serialization.csproj" />
+  </ItemGroup>
+
+</Project>

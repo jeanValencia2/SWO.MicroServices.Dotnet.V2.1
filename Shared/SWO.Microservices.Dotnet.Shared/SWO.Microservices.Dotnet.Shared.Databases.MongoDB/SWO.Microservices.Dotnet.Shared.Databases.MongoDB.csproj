@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNetCore.HealthChecks.MongoDb" Version="8.0.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="8.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+    <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Discovery.Consul\SWO.Microservices.Dotnet.Shared.Discovery.Consul.csproj" />
+    <ProjectReference Include="..\SWO.Microservices.Dotnet.Shared.Secrets.HashicorpVault\SWO.Microservices.Dotnet.Shared.Secrets.HashicorpVault.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "name": "DistriSystemAdmin",
+      "password": "7yW59G6EokFU",
+      "tags": "administrator"
+    }
+  ],
+  "vhosts": [
+    {
+      "name": "/"
+    }
+  ],
+  "permissions": [
+    {
+      "user": "DistriSystemAdmin",
+      "vhost": "/",
+      "configure": ".*",
+      "write": ".*",
+      "read": ".*"
+    }
+  ],
+  "parameters": [],
+  "policies": [
+    {"vhost":"/","name":"DLX","pattern":".*","apply-to":"queues","definition":{"dead-letter-exchange":"dead-letter.exchange"},"priority":0}
+  ],
+  "queues": [        
+    {"name":"carts-queue","vhost":"/","durable":true,"auto_delete":false,"arguments":{}},
+    {"name":"carts-queue.dead-letter","vhost":"/","durable":true,"auto_delete":false,"arguments":{}},
+    {"name":"product-queue","vhost":"/","durable":true,"auto_delete":false,"arguments":{}},
+    {"name":"product-queue.dead-letter","vhost":"/","durable":true,"auto_delete":false,"arguments":{}},
+    {"name":"product-domain-queue","vhost":"/","durable":true,"auto_delete":false,"arguments":{}},
+    {"name":"product-domain-queue.dead-letter","vhost":"/","durable":true,"auto_delete":false,"arguments":{}}
+  ],
+  "exchanges": [   
+    {"name":"dead-letter.exchange","vhost":"/","type":"direct","durable":true,"auto_delete":false,"internal":false,"arguments":{}},
+    {"name":"carts.exchange","vhost":"/","type":"topic","durable":true,"auto_delete":false,"internal":false,"arguments":{}},
+    {"name":"products.exchange","vhost":"/","type":"topic","durable":true,"auto_delete":false,"internal":false,"arguments":{}}
+  ],
+  "bindings": [    
+    {"source":"dead-letter.exchange","vhost":"/","destination":"product-domain-queue.dead-letter","destination_type":"queue","routing_key":"subscription","arguments":{}},    
+    {"source":"carts.exchange","vhost":"/","destination":"carts-queue","destination_type":"queue","routing_key":"external","arguments":{}},
+    {"source":"products.exchange","vhost":"/","destination":"product-queue","destination_type":"queue","routing_key":"external","arguments":{}},
+    {"source":"products.exchange","vhost":"/","destination":"product-domain-queue","destination_type":"queue","routing_key":"internal","arguments":{}},
+    {"source":"products.exchange","vhost":"/","destination":"carts.exchange","destination_type":"exchange","routing_key":"external","arguments":{}}
+  ]
+}

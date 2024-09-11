@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.ApiExtensions\SWO.Microservices.Dotnet.Shared.ApiExtensions.csproj" />
+    <ProjectReference Include="..\..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Comunication\SWO.Microservices.Dotnet.Shared.Comunication.csproj" />
+    <ProjectReference Include="..\..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Domain\SWO.Microservices.Dotnet.Shared.Domain.csproj" />
+    <ProjectReference Include="..\..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.EventSourcing\SWO.Microservices.Dotnet.Shared.EventSourcing.csproj" />
+    <ProjectReference Include="..\Microservices.Carts.Domain\Microservices.Carts.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34714.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.ApiGateway.Api", "Microservices.ApiGateway.Api\Microservices.ApiGateway.Api.csproj", "{E919115C-557A-4886-BFC7-B0EBA8B7C9DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{7D092A7E-2100-40F9-9BE2-1B4E83D882EC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{64486F97-1C11-48C2-B928-063F55B02BEF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Setup", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Setup\SWO.Microservices.Dotnet.Shared.Setup.csproj", "{B9345699-63EC-46D5-9F2F-C5D36DA111C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E919115C-557A-4886-BFC7-B0EBA8B7C9DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E919115C-557A-4886-BFC7-B0EBA8B7C9DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E919115C-557A-4886-BFC7-B0EBA8B7C9DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E919115C-557A-4886-BFC7-B0EBA8B7C9DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9345699-63EC-46D5-9F2F-C5D36DA111C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9345699-63EC-46D5-9F2F-C5D36DA111C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9345699-63EC-46D5-9F2F-C5D36DA111C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9345699-63EC-46D5-9F2F-C5D36DA111C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E919115C-557A-4886-BFC7-B0EBA8B7C9DB} = {64486F97-1C11-48C2-B928-063F55B02BEF}
+		{B9345699-63EC-46D5-9F2F-C5D36DA111C4} = {7D092A7E-2100-40F9-9BE2-1B4E83D882EC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {58029873-DF15-4195-B0FE-8CA1E08F9D3E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Security.Application", "Microservices.Security.Application\Microservices.Security.Application.csproj", "{E38CCCE8-E77F-4AA4-A880-F0781419F73D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Security.Domain", "Microservices.Security.Domain\Microservices.Security.Domain.csproj", "{0D2B2764-A1B2-4F5F-A604-BD65D81E69F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Security.Infrastructure", "Microservices.Security.Infrastructure\Microservices.Security.Infrastructure.csproj", "{EC768825-3FEA-4AFF-B0A7-05647989A27B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{B72A5F49-702F-467C-80B3-2F42CF9480C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{DA70B96F-F31B-4B82-B98A-3A3AE8051F99}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Microservices.Security.Api", "Microservices.Security.Api\Microservices.Security.Api.csproj", "{ADEF27D6-4644-48B5-B23D-5D819F87FA86}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.ApiExtensions", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.ApiExtensions\SWO.Microservices.Dotnet.Shared.ApiExtensions.csproj", "{9748C5E7-08B2-4420-8F40-D6DFDB2F829C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Domain", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Domain\SWO.Microservices.Dotnet.Shared.Domain.csproj", "{4CAD1FC6-013A-45F0-98F4-E195BC977DB7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Setup", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Setup\SWO.Microservices.Dotnet.Shared.Setup.csproj", "{6754AF19-1EBA-4E9F-9412-1078CAE3018C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Databases.SqlServer", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Databases.SqlServer\SWO.Microservices.Dotnet.Shared.Databases.SqlServer.csproj", "{16BF88AD-076B-4DE1-9EC8-8A4F77B49656}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E38CCCE8-E77F-4AA4-A880-F0781419F73D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38CCCE8-E77F-4AA4-A880-F0781419F73D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38CCCE8-E77F-4AA4-A880-F0781419F73D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38CCCE8-E77F-4AA4-A880-F0781419F73D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D2B2764-A1B2-4F5F-A604-BD65D81E69F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D2B2764-A1B2-4F5F-A604-BD65D81E69F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D2B2764-A1B2-4F5F-A604-BD65D81E69F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D2B2764-A1B2-4F5F-A604-BD65D81E69F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC768825-3FEA-4AFF-B0A7-05647989A27B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC768825-3FEA-4AFF-B0A7-05647989A27B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC768825-3FEA-4AFF-B0A7-05647989A27B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC768825-3FEA-4AFF-B0A7-05647989A27B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADEF27D6-4644-48B5-B23D-5D819F87FA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADEF27D6-4644-48B5-B23D-5D819F87FA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADEF27D6-4644-48B5-B23D-5D819F87FA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADEF27D6-4644-48B5-B23D-5D819F87FA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9748C5E7-08B2-4420-8F40-D6DFDB2F829C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9748C5E7-08B2-4420-8F40-D6DFDB2F829C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9748C5E7-08B2-4420-8F40-D6DFDB2F829C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9748C5E7-08B2-4420-8F40-D6DFDB2F829C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CAD1FC6-013A-45F0-98F4-E195BC977DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CAD1FC6-013A-45F0-98F4-E195BC977DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CAD1FC6-013A-45F0-98F4-E195BC977DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CAD1FC6-013A-45F0-98F4-E195BC977DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6754AF19-1EBA-4E9F-9412-1078CAE3018C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6754AF19-1EBA-4E9F-9412-1078CAE3018C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6754AF19-1EBA-4E9F-9412-1078CAE3018C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6754AF19-1EBA-4E9F-9412-1078CAE3018C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16BF88AD-076B-4DE1-9EC8-8A4F77B49656}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16BF88AD-076B-4DE1-9EC8-8A4F77B49656}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16BF88AD-076B-4DE1-9EC8-8A4F77B49656}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16BF88AD-076B-4DE1-9EC8-8A4F77B49656}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E38CCCE8-E77F-4AA4-A880-F0781419F73D} = {B72A5F49-702F-467C-80B3-2F42CF9480C3}
+		{0D2B2764-A1B2-4F5F-A604-BD65D81E69F6} = {B72A5F49-702F-467C-80B3-2F42CF9480C3}
+		{EC768825-3FEA-4AFF-B0A7-05647989A27B} = {B72A5F49-702F-467C-80B3-2F42CF9480C3}
+		{ADEF27D6-4644-48B5-B23D-5D819F87FA86} = {B72A5F49-702F-467C-80B3-2F42CF9480C3}
+		{9748C5E7-08B2-4420-8F40-D6DFDB2F829C} = {DA70B96F-F31B-4B82-B98A-3A3AE8051F99}
+		{4CAD1FC6-013A-45F0-98F4-E195BC977DB7} = {DA70B96F-F31B-4B82-B98A-3A3AE8051F99}
+		{6754AF19-1EBA-4E9F-9412-1078CAE3018C} = {DA70B96F-F31B-4B82-B98A-3A3AE8051F99}
+		{16BF88AD-076B-4DE1-9EC8-8A4F77B49656} = {DA70B96F-F31B-4B82-B98A-3A3AE8051F99}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8CB85A7B-4AA7-4A1F-9A8B-3DD5260EA72B}
+	EndGlobalSection
+EndGlobal

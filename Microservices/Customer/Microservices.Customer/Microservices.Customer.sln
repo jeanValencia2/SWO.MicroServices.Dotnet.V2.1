@@ -1,0 +1,88 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Customer.Api", "Microservices.Customer.Api\Microservices.Customer.Api.csproj", "{F20E8AEF-77C8-434C-81E7-495996212B5B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{8B1FA349-3FAC-488C-B720-E10321737FA4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Src", "Src", "{D23E2B6B-CABD-4B8E-9A19-1B14F57D62D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.ApiExtensions", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.ApiExtensions\SWO.Microservices.Dotnet.Shared.ApiExtensions.csproj", "{99C4B8A6-18C0-4AB0-BA18-A7B324093370}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Databases.SqlServer", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Databases.SqlServer\SWO.Microservices.Dotnet.Shared.Databases.SqlServer.csproj", "{800EF01B-926D-4ECB-92C4-C7C8AC81D257}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Domain", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Domain\SWO.Microservices.Dotnet.Shared.Domain.csproj", "{E584D156-BF2F-428D-BCAC-A092B6832F72}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Setup", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Setup\SWO.Microservices.Dotnet.Shared.Setup.csproj", "{7099C4D5-E802-4EC5-9EC5-F619D9EF89D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Customer.Application", "Microservices.Customer.Application\Microservices.Customer.Application.csproj", "{01E918FF-F118-48E4-86B2-88DE06D3DB0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Customer.Domain", "Microservices.Customer.Domain\Microservices.Customer.Domain.csproj", "{97D7F5FF-32EB-4D9E-987F-F0E950F362AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Microservices.Customer.Infrastructure", "Microservices.Customer.Infrastructure\Microservices.Customer.Infrastructure.csproj", "{36BEC1BA-DB0D-4A3B-89FB-9B9892127F7B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SWO.Microservices.Dotnet.Shared.Serialization", "..\..\..\Shared\SWO.Microservices.Dotnet.Shared\SWO.Microservices.Dotnet.Shared.Serialization\SWO.Microservices.Dotnet.Shared.Serialization.csproj", "{E134BA0C-C40B-4037-8F88-3FA4A5B768CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F20E8AEF-77C8-434C-81E7-495996212B5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F20E8AEF-77C8-434C-81E7-495996212B5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F20E8AEF-77C8-434C-81E7-495996212B5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F20E8AEF-77C8-434C-81E7-495996212B5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99C4B8A6-18C0-4AB0-BA18-A7B324093370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99C4B8A6-18C0-4AB0-BA18-A7B324093370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99C4B8A6-18C0-4AB0-BA18-A7B324093370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99C4B8A6-18C0-4AB0-BA18-A7B324093370}.Release|Any CPU.Build.0 = Release|Any CPU
+		{800EF01B-926D-4ECB-92C4-C7C8AC81D257}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{800EF01B-926D-4ECB-92C4-C7C8AC81D257}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{800EF01B-926D-4ECB-92C4-C7C8AC81D257}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{800EF01B-926D-4ECB-92C4-C7C8AC81D257}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E584D156-BF2F-428D-BCAC-A092B6832F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E584D156-BF2F-428D-BCAC-A092B6832F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E584D156-BF2F-428D-BCAC-A092B6832F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E584D156-BF2F-428D-BCAC-A092B6832F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7099C4D5-E802-4EC5-9EC5-F619D9EF89D5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7099C4D5-E802-4EC5-9EC5-F619D9EF89D5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7099C4D5-E802-4EC5-9EC5-F619D9EF89D5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7099C4D5-E802-4EC5-9EC5-F619D9EF89D5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E918FF-F118-48E4-86B2-88DE06D3DB0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E918FF-F118-48E4-86B2-88DE06D3DB0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E918FF-F118-48E4-86B2-88DE06D3DB0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E918FF-F118-48E4-86B2-88DE06D3DB0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97D7F5FF-32EB-4D9E-987F-F0E950F362AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97D7F5FF-32EB-4D9E-987F-F0E950F362AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97D7F5FF-32EB-4D9E-987F-F0E950F362AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97D7F5FF-32EB-4D9E-987F-F0E950F362AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36BEC1BA-DB0D-4A3B-89FB-9B9892127F7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36BEC1BA-DB0D-4A3B-89FB-9B9892127F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36BEC1BA-DB0D-4A3B-89FB-9B9892127F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36BEC1BA-DB0D-4A3B-89FB-9B9892127F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E134BA0C-C40B-4037-8F88-3FA4A5B768CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E134BA0C-C40B-4037-8F88-3FA4A5B768CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E134BA0C-C40B-4037-8F88-3FA4A5B768CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E134BA0C-C40B-4037-8F88-3FA4A5B768CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F20E8AEF-77C8-434C-81E7-495996212B5B} = {D23E2B6B-CABD-4B8E-9A19-1B14F57D62D6}
+		{99C4B8A6-18C0-4AB0-BA18-A7B324093370} = {8B1FA349-3FAC-488C-B720-E10321737FA4}
+		{800EF01B-926D-4ECB-92C4-C7C8AC81D257} = {8B1FA349-3FAC-488C-B720-E10321737FA4}
+		{E584D156-BF2F-428D-BCAC-A092B6832F72} = {8B1FA349-3FAC-488C-B720-E10321737FA4}
+		{7099C4D5-E802-4EC5-9EC5-F619D9EF89D5} = {8B1FA349-3FAC-488C-B720-E10321737FA4}
+		{01E918FF-F118-48E4-86B2-88DE06D3DB0A} = {D23E2B6B-CABD-4B8E-9A19-1B14F57D62D6}
+		{97D7F5FF-32EB-4D9E-987F-F0E950F362AC} = {D23E2B6B-CABD-4B8E-9A19-1B14F57D62D6}
+		{36BEC1BA-DB0D-4A3B-89FB-9B9892127F7B} = {D23E2B6B-CABD-4B8E-9A19-1B14F57D62D6}
+		{E134BA0C-C40B-4037-8F88-3FA4A5B768CE} = {8B1FA349-3FAC-488C-B720-E10321737FA4}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {213326BC-4F3E-444D-914C-6E2331AA3B99}
+	EndGlobalSection
+EndGlobal
